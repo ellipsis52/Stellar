@@ -1,0 +1,31 @@
+# Ignorer les fichiers d'environnement sensibles
+.env
+.env.local
+.env.*.local
+
+# Ignorer les répertoires de dépendances
+/node_modules/
+/.vscode/
+/.idea/
+
+# Ignorer les fichiers de build et de distribution
+/build/
+/dist/
+/*.log
+
+# Ignorer les fichiers de configuration d'IDE
+.vscode/
+.idea/
+
+# Ignorer les fichiers système Mac
+.DS_Store
+
+# Ignorer les fichiers de configuration de Tailwind CSS (optionnel si tu utilises Tailwind)
+tailwind.config.js
+
+# Ignorer les fichiers temporaires de l'éditeur
+*~
+
+# Ignorer les fichiers de cache de NPM
+npm-debug.log
+yarn-error.log
